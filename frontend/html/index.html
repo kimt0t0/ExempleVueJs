@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <title>Kim teste Vue.js</title>
+      
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <meta name="description" content="Page de test de Vue.js">
+      
+        <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+        
+    </head>
+    
+    <body class="body">
+        <header class="header">
+            <h1 id="title-main" class="title-main">
+                {{ title }}
+            </h1>
+            <div id="date" class="subtitle">
+                <span v-bind:message="date">Passez votre souris ici pour voir la date :-)</span>
+            </div>
+        </header>
+
+        <script src="../javascript/index.js"></script>
+    </body>
+
+</html>
